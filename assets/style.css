@@ -92,3 +92,26 @@ footer h4{margin-bottom:.8rem}footer p,footer li{color:var(--mu);font-size:.93re
 .prose ul{padding-inline-start:1.4rem;margin-bottom:.9rem;color:var(--tx);opacity:.9}
 .back{display:inline-flex;gap:.4rem;align-items:center;margin:0 auto 1.2rem;color:var(--mu)}.back:hover{color:var(--ac2)}
 .more{display:inline-flex;gap:.4rem;align-items:center;margin-top:1rem;color:var(--ac2);font-weight:700;font-size:.92rem}
+.vid-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1.8rem}
+.vcard{background:var(--card);border:1px solid var(--line);border-radius:28px;padding:1.3rem;backdrop-filter:blur(12px);transition:.3s}
+.vcard:hover{transform:translateY(-6px);box-shadow:0 22px 50px -24px var(--ac);border-color:var(--ac)}
+.vframe{position:relative;width:100%;padding-top:177.77%;border-radius:20px;overflow:hidden;background:var(--bg2);border:1px solid var(--line)}
+.vframe div{position:absolute;inset:0}
+.vframe iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.vcard h3{margin:1.1rem 0 .5rem;font-size:1.1rem}
+.htags{display:flex;flex-wrap:wrap;gap:.45rem;margin-top:.9rem}
+.htags span{font-size:.8rem;color:var(--ac2);background:var(--bg2);border:1px solid var(--line);padding:.3rem .7rem;border-radius:99px}
+.vframe{padding-top:56.25%}
+.vtools{display:flex;flex-wrap:wrap;gap:.9rem;align-items:center;margin-bottom:2rem}
+.search{position:relative;flex:1;min-width:220px}
+.search input{padding-inline-start:2.6rem;border-radius:99px}
+.search .ic{position:absolute;inset-inline-start:.9rem;top:50%;transform:translateY(-50%);color:var(--mu)}
+.chips{display:flex;gap:.5rem;flex-wrap:wrap}
+.chip{padding:.55rem 1.1rem;border-radius:99px;border:1px solid var(--line);background:var(--bg2);color:var(--mu);font-size:.9rem;cursor:pointer;font:inherit;transition:.2s}
+.chip.on,.chip:hover{background:linear-gradient(135deg,var(--ac),var(--ac2));color:#fff;border-color:transparent}
+.badge-new{position:absolute;top:12px;inset-inline-start:12px;z-index:2;background:linear-gradient(135deg,var(--ac),var(--ac2));color:#fff;font-size:.72rem;font-weight:800;padding:.3rem .75rem;border-radius:99px;box-shadow:0 6px 16px -6px var(--ac)}
+.vcard{position:relative}
+.vcard .cat{font-size:.78rem;color:var(--ac2);font-weight:700;margin-top:1rem;display:block}
+.vcard .cap{color:var(--mu);font-size:.92rem;margin-top:.3rem}
+.empty{display:none;text-align:center;color:var(--mu);padding:3rem 0}
+.sec-t{font-size:1.25rem;font-weight:800;margin:.5rem 0 1.2rem;display:flex;align-items:center;gap:.5rem}
